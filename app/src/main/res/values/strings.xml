@@ -1,0 +1,23 @@
+<resources>
+    <string name="change_genre">Change Genre</string>
+    <string name="choose_genre">Choose a Genre</string>
+    <string name="app_name">Stream Top 40</string>
+    <string name="pop_activity">Stream the Top Pop Songs</string>
+    <string name="country_activity">Hear the Top Country Hits</string>
+    <string name="pop_textplanation">(Hey! This will have maybe a listview or recyclerview
+    or something and it will have the 40 top POP songs.  All the songs will
+    have a *play* icon but whichever song is playing will have an *in progress* sort of icon.
+    This way the user doesn\'t have to use the backbutton to pick a different song.
+    They can just pick another.  Since the list will be updating daily, we\ll have to get
+    the data off a server.  So maybe retrofit would be in order.  Also, the listview would
+    have pictures.  So maybe picasso.  Thanks for reading!)  </string>
+    <string name="country_textplanation">(This will have maybe a listview or recyclerview
+    or something and it will have the 40 top COUNTRY songs.  All the songs will
+    have a *play* icon but whichever song is playing will have an *in progress* sort of icon.
+    This way the user doesn\'t have to use the backbutton to pick a different song.
+    They can just pick another.  Since the list will be updating daily, we\ll have to get
+    the data off a server.  So maybe retrofit would be in order.  Also, the listview would
+    have pictures.  So maybe picasso.  Thanks for reading!)  </string>
+    <string name="main_explanation">(Pssst! This app plays top 40 songs from one of two genres.  Audio ads
+        will play for 15 seconds once every 5 songs.  This particular activity has no technical hurldes.)</string>
+</resources>
