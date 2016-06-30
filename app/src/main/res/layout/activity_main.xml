@@ -16,11 +16,12 @@
         style="@style/GenreStyle"
         android:background="@color/colorPrimaryDark"
         android:text="@string/country_activity"/>
+
     <TextView
-        android:textSize="@dimen/explanation_text_height"
-        android:text="@string/main_explanation"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="@string/main_explanation"
+        android:textSize="@dimen/explanation_text_height"/>
 
     <TextView
         android:id="@+id/pop_list"
