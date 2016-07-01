@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Pop extends AppCompatActivity {
+public class PopSongsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,7 +17,7 @@ public class Pop extends AppCompatActivity {
         changeGenreButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Pop.this, MainActivity.class);
+                Intent intent = new Intent(PopSongsActivity.this, MainActivity.class);
                 startActivity(intent);
             }
         });

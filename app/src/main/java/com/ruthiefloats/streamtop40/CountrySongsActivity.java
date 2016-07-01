@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-public class Country extends AppCompatActivity {
+public class CountrySongsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,7 +17,7 @@ public class Country extends AppCompatActivity {
         changeGenreButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Country.this, MainActivity.class);
+                Intent intent = new Intent(CountrySongsActivity.this, MainActivity.class);
                 startActivity(intent);
             }
         });

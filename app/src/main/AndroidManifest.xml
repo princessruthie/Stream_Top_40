@@ -17,11 +17,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Pop"
+            android:name=".PopSongsActivity"
             android:label="@string/pop_activity">
         </activity>
         <activity
-            android:name=".Country"
+            android:name=".CountrySongsActivity"
             android:label="@string/country_activity">
         </activity>
     </application>

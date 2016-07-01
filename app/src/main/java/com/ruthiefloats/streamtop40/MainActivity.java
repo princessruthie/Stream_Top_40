@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         pop.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, Pop.class);
+                Intent intent = new Intent(MainActivity.this, PopSongsActivity.class);
                 startActivity(intent);
             }
         });
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         country.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, Country.class);
+                Intent intent = new Intent(MainActivity.this, CountrySongsActivity.class);
                 startActivity(intent);
             }
         });
